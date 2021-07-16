@@ -1,1 +1,54 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+#main__section-sale-boxes {
+    height: 100vh;
+    background-image: url('../imagens/sale-boxes.jpg');
+    background-position: center;
+}
+
+#main__section {
+    padding: 50px 0;
+    border: 1px solid black;
+}
+
+#main__section-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+#main__title {
+    text-align: center;
+    border: 1px solid black;
+}
+
+#main__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
+
+.form__button {
+    background-color: #3792A6;
+}
+
+footer {
+    background-color: #261D18;
+    color: #FFFFFF;
+}
+
+footer p {
+    text-align: center;
+}
