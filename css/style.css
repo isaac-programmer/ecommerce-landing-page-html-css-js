@@ -15,10 +15,10 @@ html {
 
 #main__section-sale-boxes {
     height: 100vh;
-    background-image: url('../imagens/sale-boxes.jpg');
+    background-image: url('../imagens/black-friday.jpg');
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 #main__section {
@@ -42,7 +42,7 @@ html {
     font-size: 2rem;
     padding: 20px 0;
     border-radius: 10px 10px 0 0;
-    background-color: #F2B680;
+    background-color: #F2A03D;
 }
 
 #main__form {
@@ -66,7 +66,7 @@ html {
     font-size: 1.6rem;
     padding: 10px 0;
     border-radius: 10px;
-    background-color: orangered;
+    background-color: #F2695C;
 }
 
 .form__button:hover {
@@ -83,3 +83,27 @@ footer p {
     text-align: center;
 }
 
+@media (min-width: 1366px) {
+    #main__section-sale-boxes {
+        background-image: url('../imagens/black-friday-v3.jpg');
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 1280px) {
+    #main__section-sale-boxes {
+        background-image: url('../imagens/black-friday-v3.jpg');
+    }
+}
+
+@media (max-width: 750px){
+    #main__section-sale-boxes {
+        background-image: url('../imagens/black-friday-v2.jpg');
+    }
+}
+
+@media (max-width: 450px) {
+    #main__section-sale-boxes {
+        background-image: url('../imagens/black-friday-v4.jpg');
+    }
+}
