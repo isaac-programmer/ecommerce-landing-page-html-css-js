@@ -17,8 +17,10 @@ html {
     height: 100vh;
     background-image: url('../imagens/black-friday.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 85%;
     background-size: cover;
+    object-fit: cover;
 }
 
 #main__section {
@@ -83,27 +85,24 @@ footer p {
     text-align: center;
 }
 
-@media (min-width: 1366px) {
-    #main__section-sale-boxes {
-        background-image: url('../imagens/black-friday-v3.jpg');
-        background-size: 100%;
-    }
+@media (max-width: 1366px) {
 }
 
 @media (max-width: 1280px) {
+}
+
+@media (max-width: 986px) {
     #main__section-sale-boxes {
-        background-image: url('../imagens/black-friday-v3.jpg');
+        background-image: url('../imagens/black-friday-02-v2.jpg');
+        background-position: center;
     }
 }
 
 @media (max-width: 750px){
-    #main__section-sale-boxes {
-        background-image: url('../imagens/black-friday-v2.jpg');
-    }
 }
 
 @media (max-width: 450px) {
     #main__section-sale-boxes {
-        background-image: url('../imagens/black-friday-v4.jpg');
+        background-image: url('../imagens/black-friday-03.jpg');
     }
 }
