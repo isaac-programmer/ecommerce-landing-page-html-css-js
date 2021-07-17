@@ -94,7 +94,7 @@ footer p {
 /* Media Queries */
 @media (max-width: 986px) {
     #main__section-banner {
-        background-image: url('../imagens/black-friday-02-v2.jpg');
+        background-image: url('../imagens/black-friday-02.jpg');
         background-position: center;
     }
 }
