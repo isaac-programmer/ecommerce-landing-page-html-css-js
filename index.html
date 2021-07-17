@@ -7,24 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="Isaac Daniel Bezerra"/>
     <meta name="description" content="Uma landing page de e-commerce"/>
+    <title>Landing page de E-commerce</title>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 
 <body>
     <main role="main">
-        <section id="main__section-sale-boxes">
+        <section id="main__section-banner" role="banner">
         </section>
         <section id="main__section">
             <section id="main__section-form">
-                <h1 id="main__title">Cadastre o seu e-mail para receber promoções com exclusividade!</h1>
+                <h1 id="main__title">Cadastre-se abaixo para receber promoções com exclusividade!</h1>
                 <form id="main__form" class="form" action="#">
+
                     <label for="txtNome">Nome:</label>
-                    <input type="text" name="nome" id="txtNome" placeholder="Digite o seu nome">
+                    <input type="text" name="nome" id="txtNome" placeholder="Digite o seu nome" required>
 
                     <label for="txtEmail">E-mail:</label>
-                    <input type="email" name="email" id="txtEmail" placeholder="Digite o seu melhor e-mail">
+                    <input type="email" name="email" id="txtEmail" placeholder="Digite o seu melhor e-mail" required>
 
-                    <button class="form__button" type="submit">Quero receber promoções imperdíveis!</button>
+                    <button class="form__button" type="submit" onclick="armazenarDados(event)">Quero receber promoções imperdíveis!</button>
+
                 </form>
             </section>
         </section>
@@ -32,6 +35,7 @@
     <footer role="contentinfo">
         <p>Não perca essa oportunidade!</p>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

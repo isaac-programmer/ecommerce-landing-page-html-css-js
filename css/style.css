@@ -13,7 +13,7 @@ html {
     font-size: 10px;
 }
 
-#main__section-sale-boxes {
+#main__section-banner {
     height: 100vh;
     background-image: url('../imagens/black-friday.jpg');
     background-repeat: no-repeat;
@@ -31,17 +31,16 @@ html {
 #main__section-form {
     max-width: 500px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
     border-radius: 10px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.39);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.336);
 }
 
 #main__title {
     color: #FFFFFF;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
     padding: 20px 0;
     border-radius: 10px 10px 0 0;
     background-color: #F2A03D;
@@ -60,19 +59,25 @@ html {
 #main__form input {
     display: inline-block;
     margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 .form__button {
     color: #FFFFFF;
     cursor: pointer;
     font-size: 1.6rem;
+    font-weight: 500;
     padding: 10px 0;
+    text-align: center;
     border-radius: 10px;
-    background-color: #F2695C;
+    background-color: orangered;
 }
 
 .form__button:hover {
-    background-color: #f75a21;
+    color: orangered;
+    background-color: white;
+    border: 1px solid orangered;
 }
 
 footer {
@@ -82,27 +87,32 @@ footer {
 
 footer p {
     font-size: 1.6rem;
+    font-weight: 500;
     text-align: center;
 }
 
-@media (max-width: 1366px) {
-}
-
-@media (max-width: 1280px) {
-}
-
+/* Media Queries */
 @media (max-width: 986px) {
-    #main__section-sale-boxes {
+    #main__section-banner {
         background-image: url('../imagens/black-friday-02-v2.jpg');
         background-position: center;
     }
 }
 
-@media (max-width: 750px){
-}
-
 @media (max-width: 450px) {
-    #main__section-sale-boxes {
+    #main__section-banner {
         background-image: url('../imagens/black-friday-03.jpg');
+    }
+
+    #main__section-form {
+        width: 90%;
+    }
+
+    #main__title {
+        font-size: 2rem;
+    }
+
+    #main__form {
+        padding: 20px 10px;
     }
 }
