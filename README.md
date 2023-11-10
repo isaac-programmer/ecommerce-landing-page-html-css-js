@@ -1,4 +1,4 @@
 # Landing Page - E-commerce
 
-# Detalhes
+## Detalhes
 Landing page responsiva de um e-commerce genérico.
