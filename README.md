@@ -1,3 +1,4 @@
-# Landing page de E-commerce
+# Landing Page - E-commerce
 
-Esse é o primeiro desafio proposto na fase 01 do Hiring Coders #2.
+# Detalhes
+Landing Page responsiva de um E-commerce genérico.
